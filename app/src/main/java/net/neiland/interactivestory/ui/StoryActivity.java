@@ -1,12 +1,12 @@
-package net.neiland.interactivestory;
+package net.neiland.interactivestory.ui;
 
 import android.content.Intent;
-import android.nfc.Tag;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
+
+import net.neiland.interactivestory.R;
+import net.neiland.interactivestory.model.Page;
 
 
 public class StoryActivity extends ActionBarActivity {
